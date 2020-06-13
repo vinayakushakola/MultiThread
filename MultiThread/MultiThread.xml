@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MultiThread</name>
+    </assembly>
+    <members>
+        <member name="M:MultiThread.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            It is get
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

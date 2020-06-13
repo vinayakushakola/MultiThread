@@ -17,7 +17,11 @@ namespace MultiThread.Controllers
             return new string[] { "value1", "value2" };
         }
 
-        // GET api/values/5
+        /// <summary>
+        /// It is get
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
