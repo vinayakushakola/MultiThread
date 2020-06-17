@@ -4,12 +4,45 @@
         <name>MultiThread</name>
     </assembly>
     <members>
-        <member name="M:MultiThread.Controllers.ValuesController.Get(System.Int32)">
+        <member name="M:MultiThread.Controllers.UploadController.GetListOfImages">
             <summary>
-            It is get
+            It Shows Uploaded Image Path
             </summary>
-            <param name="id"></param>
-            <returns></returns>
+            <returns>If Data Found Return Ok else null or Bad Request</returns>
+        </member>
+        <member name="M:MultiThread.Controllers.UploadController.AddImage(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            It is used to Upload Image
+            </summary>
+            <param name="file">Select Image</param>
+            <returns>If Data Found return Ok else null or Bad Request</returns>
+        </member>
+        <member name="M:MultiThread.Controllers.UploadController.GetListOfVideos">
+            <summary>
+            It Shows Uploaded Video Path
+            </summary>
+            <returns>If Data Found Return Ok else null or Bad Request</returns>
+        </member>
+        <member name="M:MultiThread.Controllers.UploadController.AddVideo(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            It is used to Upload Video
+            </summary>
+            <param name="videoFile">Select Video</param>
+            <returns>If Data Found Return Ok else null or Bad Request</returns>
+        </member>
+        <member name="M:MultiThread.Controllers.UploadController.UploadImageToCloudinary(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            It is used to Upload image into the Cloudinary
+            </summary>
+            <param name="image">Image Path</param>
+            <returns>If Image Uploaded Successfully return Image Link else Exception</returns>
+        </member>
+        <member name="M:MultiThread.Controllers.UploadController.UploadVideoToCloudinary(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            It is used to Upload Video into the Cloudinary
+            </summary>
+            <param name="video">Video Path</param>
+            <returns>If Video Uploaded Successfully return Video Link else Exception</returns>
         </member>
     </members>
 </doc>

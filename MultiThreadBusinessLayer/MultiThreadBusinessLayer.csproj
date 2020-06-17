@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interface\" />
-    <Folder Include="Service\" />
+    <ProjectReference Include="..\MultiThreadCommonLayer\MultiThreadCommonLayer.csproj" />
+    <ProjectReference Include="..\MultiThreadRepositoryLayer\MultiThreadRepositoryLayer.csproj" />
   </ItemGroup>
 
 </Project>
