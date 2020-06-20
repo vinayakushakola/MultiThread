@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThread", "MultiThread\MultiThread.csproj", "{6E4DBEE2-1587-44D1-9C47-893BFA72710E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiThread", "MultiThread\MultiThread.csproj", "{6E4DBEE2-1587-44D1-9C47-893BFA72710E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreadBusinessLayer", "MultiThreadBusinessLayer\MultiThreadBusinessLayer.csproj", "{C19FB0D4-969B-4981-8302-5E32D409FF25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiThreadBusinessLayer", "MultiThreadBusinessLayer\MultiThreadBusinessLayer.csproj", "{C19FB0D4-969B-4981-8302-5E32D409FF25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreadCommonLayer", "MultiThreadCommonLayer\MultiThreadCommonLayer.csproj", "{0EDD5929-81F4-4ACC-A664-303DB7E00A66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiThreadCommonLayer", "MultiThreadCommonLayer\MultiThreadCommonLayer.csproj", "{0EDD5929-81F4-4ACC-A664-303DB7E00A66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreadRepositoryLayer", "MultiThreadRepositoryLayer\MultiThreadRepositoryLayer.csproj", "{5C5B0022-FD9F-4DBB-A615-5D8B366F1F68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiThreadRepositoryLayer", "MultiThreadRepositoryLayer\MultiThreadRepositoryLayer.csproj", "{5C5B0022-FD9F-4DBB-A615-5D8B366F1F68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreadUnitTesting", "MultiThreadUnitTesting\MultiThreadUnitTesting.csproj", "{04C568D0-CD5E-4DCA-8C72-6DB9CAF61825}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{5C5B0022-FD9F-4DBB-A615-5D8B366F1F68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C5B0022-FD9F-4DBB-A615-5D8B366F1F68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C5B0022-FD9F-4DBB-A615-5D8B366F1F68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04C568D0-CD5E-4DCA-8C72-6DB9CAF61825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04C568D0-CD5E-4DCA-8C72-6DB9CAF61825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04C568D0-CD5E-4DCA-8C72-6DB9CAF61825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04C568D0-CD5E-4DCA-8C72-6DB9CAF61825}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

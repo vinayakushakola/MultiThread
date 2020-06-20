@@ -44,6 +44,7 @@ namespace MultiThread.Controllers
                 bool success = false;
                 string message;
                 List<ImageResponse> data = null;
+
                 Thread myThread = new Thread(() =>
                 {
                     data = _uploadBusiness.ListOfImages();
